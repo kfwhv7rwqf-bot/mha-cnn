@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If this portfolio is useful, please cite the peer-reviewed article below."
+title: "MHA-CNN for Environmental Performance Prediction"
+type: software
+authors:
+  - family-names: Wu
+    given-names: Fenger
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Wu
+      given-names: Fenger
+    - family-names: He
+      given-names: Jiaan
+    - family-names: Cai
+      given-names: Liangyu
+    - family-names: Du
+      given-names: Minzhe
+    - family-names: Huang
+      given-names: Mingzhi
+  title: "Accurate multi-objective prediction of CO2 emission performance indexes and industrial structure optimization using multihead attention-based convolutional neural network"
+  journal: "Journal of Environmental Management"
+  volume: 337
+  pages: "117759"
+  year: 2023
+  doi: 10.1016/j.jenvman.2023.117759

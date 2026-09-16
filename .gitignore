@@ -1,0 +1,12 @@
+# Local artifacts and OS files
+.DS_Store
+Thumbs.db
+tmp/
+*.log
+
+# Keep publisher PDFs and raw research data out of the public portfolio.
+*.csv
+*.xlsx
+*.pt
+*.pth
+*.ckpt
