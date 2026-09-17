@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">MHA-CNN environmental performance prediction workflow</title>
+  <desc id="desc">Eight regional variables feed multi-head attention and convolutional neural-network layers, producing four carbon-emission performance indexes and interpretable contribution analysis.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4fbfb"/><stop offset="1" stop-color="#edf2ff"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#17324d" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#64748b"/></marker>
+    <style>.k{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#16314b}.muted{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#52677a}.small{font-size:18px}.label{font-size:21px;font-weight:700}.title{font-size:28px;font-weight:700}</style>
+  </defs>
+  <rect width="1200" height="460" rx="28" fill="url(#bg)"/>
+  <text x="56" y="60" class="title k">Interpretable multi-objective carbon-performance prediction</text>
+  <text x="56" y="91" class="muted small">Regional data → attention-aware representation → prediction and policy insight</text>
+  <g filter="url(#shadow)"><rect x="55" y="145" width="245" height="220" rx="20" fill="#fff"/><rect x="350" y="125" width="330" height="260" rx="24" fill="url(#core)"/><rect x="730" y="145" width="180" height="220" rx="20" fill="#fff"/><rect x="960" y="145" width="185" height="220" rx="20" fill="#fff"/></g>
+  <text x="82" y="184" class="label k">8 input variables</text><text x="82" y="219" class="muted small">Scientific investment</text><text x="82" y="246" class="muted small">Education investment</text><text x="82" y="273" class="muted small">Green patents · GDP</text><text x="82" y="300" class="muted small">Capital · energy mismatch</text><text x="82" y="327" class="muted small">Energy use · population</text>
+  <text x="399" y="193" class="label" fill="#fff">MHA-CNN</text><text x="399" y="232" class="small" fill="#dbeafe">Multi-head attention</text><text x="399" y="262" class="small" fill="#dbeafe">↓ identifies variable weights</text><text x="399" y="305" class="small" fill="#dbeafe">CNN feature extraction</text><text x="399" y="335" class="small" fill="#dbeafe">↓ nonlinear joint regression</text>
+  <text x="753" y="184" class="label k">4 outputs</text><text x="753" y="220" class="muted small">TFCE</text><text x="753" y="248" class="muted small">Carbon productivity</text><text x="753" y="276" class="muted small">Total emissions</text><text x="753" y="304" class="muted small">Emission intensity</text>
+  <text x="985" y="184" class="label k">Insight</text><text x="985" y="220" class="muted small">Contribution</text><text x="985" y="248" class="muted small">analysis</text><text x="985" y="293" class="muted small">Industrial-structure</text><text x="985" y="321" class="muted small">recommendations</text>
+  <path d="M305 255 H342" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/><path d="M685 255 H722" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/><path d="M915 255 H952" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="390" y="404" width="420" height="32" rx="16" fill="#d9f2ee"/><text x="452" y="427" class="small k">TFCE test: R = 0.92 · MAE = 0.04</text>
+</svg>
